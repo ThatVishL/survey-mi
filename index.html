@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SurveyMI</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="header">
+    <div class="branding">
+      <img src="images/logo2.jpeg" alt="SurveyMI Logo" class="logo-img">
+  <div class="footer-branding">
+  <div class="logo">
+    <span class="logo-survey">Survey</span><span class="logo-mi">MI</span>
+  </div>
+  </div>
+    </div>
+
+    <div class="hamburger" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <nav class="navbar" id="navbar">
+      <ul>
+        <li><a href="#quote">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ===== HERO / QUOTE ===== -->
+  <section id="quote" class="hero">
+    <h1>Beyond Boundaries</h1>
+    <p>    We specialize in delivering accurate and technology-driven surveying and GIS solutions   
+    all tailored to meet the evolving needs of clients across East Africa.  </p>
+    <a href="#contact" class="btn">Get a Quote</a>
+  </section>
+
+  <!-- ===== OUR EXPERTISE ===== -->
+  <section id="expertise">
+  <h2>Our Expertise</h2>
+  <div class="expertise-grid">
+    <div id= "cadastral" class="expertise-item">
+      <img src="images/subdivision.jpeg" alt="Cadastral map">
+      <h3>Cadastral Surveys</h3>
+      <p> Our surveying services go above and beyond the usual subdivisions, resurveys, amalgamations, 
+        change of user, extension of leases, and boundary confirmations, we also provide technical support 
+        and conveyancing services for our clients as an added bonus. </p>
+    </div>
+    <div id= "drone" class="expertise-item">
+      <img src="images/droneNa.png" alt="Drone pic">
+      <h3>Aerial Surveys</h3>
+      <p>At SurveyMI, we leverage advanced drone technology to deliver high-resolution 
+        aerial data for precise mapping and analysis. Our licensed drone pilots capture detailed 
+        imagery and 3D data efficiently, enabling fast, cost-effective data acquisition for land development, 
+        agriculture, environmental monitoring, mining, and infrastructure inspection. Using RTK-enabled drones, 
+        we achieve high positional accuracy of up to 3 cm, ensuring reliable data for engineering-grade applications.
+
+      </p>
+    </div>
+    <div id= "sectionals" class="expertise-item">
+      <img src="images/sectional.jpeg" alt="Sectional Survey">
+      <h3>Sectional Surveys</h3>
+      <p>At Survey MI we are cognizant of the fact that taking on large scale development 
+        projects requires you to be in control of your costs, work flows and expected deliverables. 
+        With the real estate market currently on the rise we have tailor made solutions for your needs 
+        be it as a developer, advocate or potential unit owner, we have you covered. 
+    </p>
+    </div>
+    <div id= "engineering" class="expertise-item">
+      <img src="images/caleb.jpeg" alt="Construction Survey">
+      <h3>Construction Surveys</h3>
+      <p>We offer detailed engineering solutions that assist in the design, planning, 
+        execution and monitoring of infrastructure projects. Our services cover topographic surveys, 
+        as-built surveys, and construction setting out. We help engineers, architects and contractors 
+        optimize construction accuracy. Our team ensures timely delivery of data to move projects from 
+        conception to completion.
+    </p>
+    </div>
+    <div id= "gis" class="expertise-item">
+      <img src="images/gis.jpeg" alt="GIS map">
+      <h3>Geographic Information Systems</h3>
+      <p>We provide comprehensive GIS services including data collection, spatial analysis, 
+        and custom mapping solutions. Our GIS experts utilize advanced software to create interactive 
+        maps and databases that support decision-making across various sectors such as urban planning, 
+        environmental management, and resource allocation.
+    </p>
+    </div>
+  </div>
+</section>
+
+
+  <!-- ===== FEATURED PROJECTS ===== -->
+  <section id="projects">
+    <h2>Featured Projects</h2>
+    <div class="projects-grid">
+      <div class="project-item">
+        <img src="images/sectionProject2.png" alt="Sectional Project ">
+        <h3>Freehold tenure for 185-unit development</h3>
+        <p>Structured phased conversion to leasehold
+           Coordinated with Lands Ministry, Nairobi Registry and Survey of Kenya
+           $7M approximately in sales to international buyers</p>
+      </div>
+      <div class="project-item">
+        <img src="images/aerial.png" alt="Project 2">
+        <h3>DJI Mavic 3 for Topographic Survey in Karen </h3>
+        <p>Utilized RTK drone technology for high-accuracy mapping
+           Delivered detailed topographic data for our realtor client
+           Enhanced project efficiency and reduced survey time</p>
+      </div>
+      <div class="project-item">
+        <img src="images/construction.jpeg" alt="Bridge inspection">
+        <h3>Survey for Infrastructure Planning</h3>
+        <p>Survey work for failed culvert bridge, where erosion and structural collapse had exposed the culvert barrels. 
+          GNSS equipment was used to capture coordinates, elevations, and site details for redesign.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MEET OUR TEAM ===== -->
+<section id="team">
+  <h2>Meet Our Team</h2>
+  <div class="team-grid">
+    <!-- First row (3 members) -->
+    <div class="team-member">
+      <img src="images/Caleb1.png" alt="Team Member 1">
+      <h3>Caleb Obaigwa</h3>
+      <p>Engineering Surveyor </p>
+    </div>
+ 
+    <div class="team-member">
+      <img src="images/Nancy2.png" alt="Team Member 3">
+      <h3>Nancy Kiinge</h3>
+      <p>Drone Pilot & Surveyor</p>
+    </div>
+
+   <div class="team-member">
+      <img src="images/Beka.jpeg" alt="Team Member 2">
+      <h3>Derrick Rambeka</h3>
+      <p>Surveyor</p>
+    </div>
+    <!-- Second row (2 members) -->
+    <div class="team-member">
+      <img src="images/Vision.jpeg" alt="Team Member 4">
+      <h3>Vision Liaka</h3>
+      <p>Geomatics Specialist</p>
+    </div>
+    <div class="team-member">
+      <img src="images/Grishon.png" alt="Team Member 5">
+      <h3>Grishon Kamau</h3>
+      <p>Surveyor</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- ===== FAQs ===== -->
+<section id="faqs">
+  <h2>FAQs</h2>
+
+  <details class="faq-item">
+    <summary>What services do you offer?</summary>
+    <p>We provide cadastral, aerial, and sectional surveys.</p>
+  </details>
+
+  <details class="faq-item">
+    <summary>Where are you based?</summary>
+    <p>We are located at Kensia House, 2nd floor, opposite KICD along Murang'a Rd.</p>
+  </details>
+
+  <details class="faq-item">
+    <summary>How long does a survey take?</summary>
+    <p>It depends on project size, typically 1-3 weeks.</p>
+  </details>
+
+  <details class="faq-item">
+    <summary>Do you provide digital maps?</summary>
+    <p>Yes, we deliver digital maps and geospatial data.</p>
+  </details>
+
+  <details class="faq-item">
+    <summary>How do I request a quote?</summary>
+    <p>Use our contact form below.</p>
+  </details>
+</section>
+
+
+  <!-- ===== CONTACT US ===== -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+<!-- Footer -->
+<footer>
+  <div class="footer-container">
+    <!-- Left section -->
+    <div class="footer-left">
+      <img src="images/logo2.jpeg" alt="SurveyMI Logo" class="logo">
+      <p>2nd floor, Kensia House<br>Murang'a Rd,Nairobi, 
+        <br>Kenya</p>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-x-twitter"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+        <a href="#"><i class="fab fa-telegram"></i></a>
+      </div>
+    </div>
+
+    <div class="footer-middle">
+      <h3>Talk to us</h3>
+     
+      <ul>
+        <li><img src="images/envelope-at-fill.svg">    info@survey-mi.com</li>
+        <li><img src="images/telephone.svg">    +25412224012</li>
+        <li><img src="images/globe.svg">  www.survey-mi.com </li>
+      
+      </ul>
+
+    </div>
+
+    <!-- Middle section -->
+    <div class="footer-middle">
+
+      <h3>Company</h3>
+      <ul>
+        <li><a href="#quote">About</a></li>
+        <li><a href="#team">Our Team</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+  
+      </ul>
+
+    </div>
+
+
+
+    <!-- Right section -->
+    <div class="footer-right">
+      <h3>Services</h3>
+      <ul>
+        <li><a href="#cadastral">Cadastral Surveys</a></li>
+        <li><a href="#drone">Aerial Mapping</a></li>
+        <li><a href="#sectional">Sectional Properties </a></li>
+        <li><a href="#engineering">Engineering Survey</a></li>
+        <li><a href="#gis">GIS</a></li>
+      </ul>
+      
+    </div>
+  </div>
+
+  <!-- Bottom bar -->
+  <div class="footer-bottom">
+    <p>Copyright © 2025. All rights reserved</p>
+  </div>
+</footer>
+
+
+  <script>
+    function toggleMenu() {
+      document.getElementById("navbar").classList.toggle("active");
+    }
+  </script>
+
+</body>
+</html>
