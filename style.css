@@ -13,7 +13,7 @@ h1, h2, h3 {
 
 /* ===== NAVBAR ===== */
 .header {
-  background:linear-gradient(135deg, #fffef4, #cc7a00, #fffef4);
+  background: linear-gradient(135deg, #fffef4, #6fa043, #fffef4);
   padding: 0.5rem 2rem;
   display: flex;
   justify-content: space-between;
@@ -28,6 +28,7 @@ h1, h2, h3 {
   align-items: center;
   gap: 10px;
 }
+
 
 .logo-img {
   height: 105px;
@@ -44,13 +45,13 @@ h1, h2, h3 {
 .logo-survey {
   color: #373643;
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
 }
 
 .logo-mi{
   color: #cc7a00;
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
 }
 
 .navbar ul {
@@ -91,7 +92,7 @@ h1, h2, h3 {
 .hero {
   text-align: center;
   padding: 4rem 2rem;
-  background: linear-gradient(135deg, #fffef4, #cc7a00, #fffef4);
+  background: linear-gradient(135deg, #fffef4, #6fa043, #fffef4);
   color: #261d31;
 }
 
@@ -125,7 +126,7 @@ h1, h2, h3 {
 /* Expertise section */
 #expertise {
   padding: 50px 20px;
-  background:linear-gradient(135deg, #fffef4, #cc7a00, #fffef4);
+  background:linear-gradient(135deg, #fffef4, #6fa043, #fffef4);
   text-align: center;
 }
 
@@ -187,7 +188,7 @@ h1, h2, h3 {
 #projects {
   padding: 3rem 2rem;
   text-align: center;
-  background: linear-gradient(135deg, #fffef4, #cc7a00, #fffef4);
+  background: linear-gradient(135deg, #fffef4, #6fa043, #fffef4);
 }
 
 .projects-grid {
@@ -206,7 +207,7 @@ h1, h2, h3 {
 #team {
   padding: 3rem 2rem;
   text-align: center;
-  background: linear-gradient(135deg, #fffef4, #cc7a00, #fffef4)
+  background: linear-gradient(135deg, #fffef4, #6fa043, #fffef4)
 }
 
 #team h2 {
@@ -248,7 +249,7 @@ h1, h2, h3 {
 #faqs {
   padding: 3rem 2rem;
   text-align: center;
-  background: linear-gradient(135deg, #fffef4, #cc7a00, #fffef4);
+  background: linear-gradient(135deg, #fffef4, #6fa043, #fffef4);
 }
 
 .faq-item {
@@ -288,7 +289,7 @@ h1, h2, h3 {
 #contact {
   padding: 3rem 2rem;
   text-align: center;
-  background: linear-gradient(135deg, #fffef4, #cc7a00, #fffef4);
+  background: linear-gradient(135deg, #fffef4, #6fa043, #fffef4);
 }
 
 form {
@@ -331,7 +332,7 @@ button:hover {
 
 
 footer {
-  background: linear-gradient(135deg, #fffef4, #cc7a00, #fffef4);
+  background: linear-gradient(135deg, #fffef4, #6fa043, #fffef4);
   color: rgb(31, 1, 1);
   font-family: Arial, sans-serif;
   padding: 40px 20px 0;  /* remove bottom padding so the green bar touches */
